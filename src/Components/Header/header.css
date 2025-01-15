@@ -1,0 +1,95 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  /* background-color: var(--dark-gray-secondary-background); */
+  margin-bottom: 100px;
+}
+.header-container--body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+.about-me--container {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.greeting-text {
+  font-size: 40px;
+}
+.greeting-text span {
+  color: var(--green-primary);
+}
+.name-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  color: var(--green-primary);
+}
+.name-text span {
+  font-weight: 600;
+}
+.profession-text {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 100;
+}
+.about-me--container h2 {
+  margin-bottom: 4px;
+  font-size: 30px;
+  font-weight: normal;
+  color: var(--green-primary);
+}
+.about-me-text {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.about-me--container button {
+  align-self: center;
+  width: 300px;
+  height: 50px;
+  background-color: var(--green-primary);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: var(--off-white);
+
+  transition-property: all; /*Propiedades que van a sufrir la transicion*/
+  transition-duration: 0.2s; /*Tiempo que durará la transicion*/
+  transition-timing-function: ease; /*Define la curva de aceleracion que llevará la transicion*/
+}
+.about-me--container button:hover {
+  box-shadow: 0 0 8px var(--green-primary);
+  font-weight: bold;
+}
+.about-me--container button:active {
+  background-color: var(--off-white);
+  box-shadow: 0 0 5px var(--green-primary);
+  color: var(--green-primary);
+}
+.background-img {
+  place-self: center;
+  display: grid;
+  place-content: center;
+  width: 400px;
+  height: 350px;
+  background-color: var(--green-primary);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  /* box-shadow: -10px 0 100px var(--green-primary); */
+
+  transition: all 1s ease;
+}
+.header-container--body img {
+  translate: 0 30px;
+  width: 270px;
+  /* height: 300px; */
+  transition: all 1s ease;
+}
+.background-img:hover {
+  width: 480px;
+  height: 420px;
+}
+.header-container--body .background-img:hover img {
+  width: 324px;
+}

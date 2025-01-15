@@ -1,0 +1,39 @@
+.education-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 300px;
+  height: 400px;
+  background-color: var(--dark-gray-secondary-background);
+  border-radius: 20px;
+
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.education-card:hover {
+  border: 3px solid var(--green-primary);
+}
+.education-card .institution-text {
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--green-primary);
+}
+.education-card .career-text {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.education-card img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.education-card .period-text {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--green-primary);
+}

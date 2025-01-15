@@ -1,0 +1,19 @@
+:root {
+  --green-primary: #b5d749;
+  --dark-gray-primary-background: #242424;
+  --dark-gray-secondary-background: #3b3939;
+  --off-white: #f0f0f0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: var(--dark-gray-primary-background);
+  color: var(--off-white);
+  font-family: "Calibri Light", Helvetica, sans-serif;
+}

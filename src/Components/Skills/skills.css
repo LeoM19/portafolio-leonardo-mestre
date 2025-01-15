@@ -1,0 +1,17 @@
+.skills-container {
+  width: 100%;
+  height: auto;
+  background-color: var(--dark-gray-secondary-background);
+  padding: 100px 0;
+}
+.skills-container h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.skills-grid {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

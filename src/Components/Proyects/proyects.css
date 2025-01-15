@@ -1,0 +1,19 @@
+.proyects-container {
+  width: 100%;
+  height: auto;
+  background-color: var(--dark-gray-secondary-background);
+  padding: 100px 0;
+}
+.proyects-container h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.proyects-grid {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
