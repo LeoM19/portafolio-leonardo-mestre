@@ -25,7 +25,7 @@ function Header() {
             desarrollando mis habilidades y conocimientos en programación para
             contribuir a proyectos tecnológicos que marquen la diferencia.
           </p>
-          <button onClick={() => window.open("/cv.pdf", "_blank")}>
+          <button onClick={() => window.open("/cv_lm.pdf", "_blank")}>
             Descargar CV
           </button>
         </div>

@@ -8,8 +8,8 @@ const proyects = [
     description:
       "Este proyecto es una representación visual y funcional de mi trayectoria como desarrollador frontend. Diseñé y desarrollé este portafolio para destacar mis habilidades técnicas, proyectos realizados y mi pasión por la creación de experiencias web atractivas y eficientes.",
     technologies: ["images/skills/react.png", "/vite.svg"],
-    repository: "#",
-    preview: "#"
+    repository: "https://github.com/LeoM19/portafolio-leonardo-mestre",
+    preview: "https://portafolio--leonardo-mestre.web.app/"
   }
 ];
 

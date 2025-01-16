@@ -60,13 +60,15 @@
   transition-timing-function: ease; /*Define la curva de aceleracion que llevará la transicion*/
 }
 .about-me--container button:hover {
-  box-shadow: 0 0 8px var(--green-primary);
+  background-color: var(--off-white);
+  box-shadow: 0 0 5px var(--off-white);
+  color: var(--green-primary);
   font-weight: bold;
 }
 .about-me--container button:active {
-  background-color: var(--off-white);
+  background-color: var(--green-primary);
   box-shadow: 0 0 5px var(--green-primary);
-  color: var(--green-primary);
+  color: var(--off-white);
 }
 .background-img {
   place-self: center;
