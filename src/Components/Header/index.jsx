@@ -1,5 +1,7 @@
 import "./header.css";
 import { Menu } from "./Menu";
+import foto from "../../assets/images/foto.png";
+import cv from "../../assets/cv.pdf";
 
 function Header() {
   return (
@@ -25,12 +27,12 @@ function Header() {
             desarrollando mis habilidades y conocimientos en programación para
             contribuir a proyectos tecnológicos que marquen la diferencia.
           </p>
-          <button onClick={() => window.open("/cv.pdf", "_blank")}>
+          <button onClick={() => window.open(cv, "_blank")}>
             Descargar CV
           </button>
         </div>
         <div className="background-img">
-          <img src="/images/foto.png" alt="" />
+          <img src={foto} alt="" />
         </div>
       </div>
     </div>

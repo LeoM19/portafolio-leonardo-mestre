@@ -1,5 +1,7 @@
 import "./education.css";
 import { EducationCard } from "./EducationCard";
+import upiicsa_img from "../../assets/images/institutions/upiicsa.png";
+import platzi_img from "../../assets/images/institutions/platzi.png";
 
 function Education() {
   const educationItems = [
@@ -7,13 +9,13 @@ function Education() {
       institution: "UPIICSA",
       career: "Ingeniería en informática",
       period: "2019-Actualmente",
-      img: "/images/institutions/upiicsa.png"
+      img: upiicsa_img
     },
     {
       institution: "Platzi",
       career: "Escuela de Desarrollo Web",
       period: "2024-Actualmente",
-      img: "/images/institutions/platzi.png"
+      img: platzi_img
     }
   ];
 

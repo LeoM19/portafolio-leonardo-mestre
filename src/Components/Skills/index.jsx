@@ -1,31 +1,37 @@
 import "./skills.css";
 import { SkillItem } from "./SkillItem";
+import html5 from "../../assets/images/skills/html5.png";
+import css3 from "../../assets/images/skills/css3.png";
+import js from "../../assets/images/skills/javascript.png";
+import react from "../../assets/images/skills/react.png";
+import reactnative from "../../assets/images/skills/reactnative.png";
+import github from "../../assets/images/skills/github.png";
 
 function Skills() {
   const skills = [
     {
       name: "HTML 5",
-      img: "/images/skills/html5.png"
+      img: html5
     },
     {
       name: "CSS 3",
-      img: "/images/skills/css3.png"
+      img: css3
     },
     {
       name: "JavaScript",
-      img: "/images/skills/javascript.png"
+      img: js
     },
     {
       name: "React JS",
-      img: "/images/skills/react.png"
+      img: react
     },
     {
       name: "React Native",
-      img: "/images/skills/reactnative.png"
+      img: reactnative
     },
     {
       name: "GitHub",
-      img: "/images/skills/github.png"
+      img: github
     }
   ];
 
