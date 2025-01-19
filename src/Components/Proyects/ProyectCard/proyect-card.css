@@ -24,11 +24,6 @@
   width: 90%;
   border-color: var(--green-primary);
 }
-.proyect-card > img {
-  width: 80%;
-  border: 2px solid var(--off-white);
-  border-radius: 8px;
-}
 .info-container {
   width: 90%;
 }
@@ -87,4 +82,44 @@
   background-color: var(--off-white);
   color: var(--green-primary);
   box-shadow: 0 0 5px var(--off-white);
+}
+
+@media (max-width: 1300px) {
+  .proyect-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .proyect-card > img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .proyect-card {
+    padding: 20px;
+  }
+  .proyect-card > img {
+    width: 80%;
+  }
+  .info-container h3 {
+    font-size: 2rem;
+  }
+  .technologies-grid {
+    gap: 10px;
+  }
+  .technologies-grid img {
+    width: 25px;
+  }
+  .info-container > p {
+    font-size: 1.5rem;
+  }
+  .links-grid {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .links-grid a {
+    margin-bottom: 10px;
+    width: 110px;
+    font-size: 1.2rem;
+  }
 }

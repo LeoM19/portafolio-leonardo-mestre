@@ -11,7 +11,9 @@
 }
 .skills-grid {
   margin-bottom: 30px;
+  /* min-width: 1000px; */
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }

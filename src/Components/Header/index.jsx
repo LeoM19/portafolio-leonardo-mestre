@@ -30,7 +30,7 @@ function Header() {
           </button>
         </div>
         <div className="background-img">
-          <img src="/images/foto.png" alt="" />
+          <img src="/images/foto.png" alt="Foto personal" />
         </div>
       </div>
     </div>
